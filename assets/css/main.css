@@ -151,7 +151,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: solid 2px #332cf2;
+		border-bottom: solid 2px #18191a
 		color: inherit;
 		text-decoration: none;
 		position: relative;
@@ -161,7 +161,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #332cf2;
+			color: #18191a;
 		}
 
 	strong, b {
@@ -1825,9 +1825,9 @@ button,
 	transition: border-color 0.2s ease;
 	background-color: transparent;
 	border: solid 2px !important;
-	border-color: #332cf2  !important;
+	border-color: #18191a !important;
 	border-radius: 3em;
-	color: #332cf2 !important;
+	color: #18191a !important;
 	cursor: pointer;
 	display: inline-block;
 	font-size: 0.6em;
@@ -1907,7 +1907,7 @@ button,
 	button.primary,
 	.button.primary {
 		background-color: #ffffff;
-		color: #332cf2 !important;
+		color: #18191a !important;
 	}
 
 		input[type="submit"].primary:after,
@@ -1937,8 +1937,8 @@ button,
 	input[type="button"]:hover,
 	button:hover,
 	.button:hover {
-		border-color: #332cf2 !important;
-		background-color: #332cf2;
+		border-color: #18191a !important;
+		background-color: #18191a;
 		color: #ffffff !important;
 	
 	}
@@ -1960,7 +1960,7 @@ button,
 		input[type="button"]:hover:active,
 		button:hover:active,
 		.button:hover:active {
-			border-color: #332cf2 !important;
+			border-color: #18191a !important;
 			
 		}
 
@@ -1986,7 +1986,7 @@ button,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	border-radius: 0.25em;
-	border: solid 2px #332cf2;
+	border: solid 2px #18191a;
 	background: #eaf4ec;
 	margin: 0 0 2em 0;
 }
@@ -1994,7 +1994,7 @@ button,
 	.features section {
 		padding: 3.5em 3em 1em 7em ;
 		width: 50%;
-		border-top: solid 2px #332cf2;
+		border-top: solid 2px #18191a;
 		position: relative;
 	}
 
@@ -2003,7 +2003,7 @@ button,
 		}
 
 		.features section:nth-child(2n) {
-			border-left: solid 2px #332cf2;
+			border-left: solid 2px #18191a;
 		}
 
 		.features section .icon {
@@ -2314,7 +2314,7 @@ textarea {
 	background: #eaf4ec;
 	border-radius: 0.25em;
 	border: none;
-	border: solid 2px #332cf2;
+	border: solid 2px #18191a;
 	color: inherit;
 	display: block;
 	outline: 0;
@@ -2338,7 +2338,7 @@ textarea {
 	input[type="tel"]:focus,
 	select:focus,
 	textarea:focus {
-		border-color:#332cf2;
+		border-color:#18191a;
 
 	}
 
@@ -2425,7 +2425,7 @@ input[type="radio"] {
 		input[type="radio"] + label:before {
 			background: #eaf4ec;
 			border-radius: 0.25em;
-			border: solid 2px #332cf2;
+			border: solid 2px #18191a;
 			content: '';
 			display: inline-block;
 			font-size: 0.8em;
@@ -2441,14 +2441,14 @@ input[type="radio"] {
 	input[type="checkbox"]:checked + label:before,
 	input[type="radio"]:checked + label:before {
 		background: #ffffff;
-		border-color: #332cf2;
-		color: #332cf2;
+		border-color: #18191a;
+		color: #18191a;
 		content: '\f00c';
 	}
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #332cf2;
+		border-color: #18191a;
 	}
 
 input[type="checkbox"] + label:before {
@@ -2527,7 +2527,7 @@ input[type="radio"] + label:before {
 		width: 2.5em;
 		height: 2.5em;
 		display: block;
-		background: #332cf2;
+		background: #18191a;
 		border-radius: 100%;
 		color: #eaf4ec;
 		text-align: center;
@@ -2647,7 +2647,7 @@ input[type="radio"] + label:before {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #332cf2;
+				border-top: solid 2px #18191a;
 				padding: 0.5em 0;
 			}
 
@@ -2916,7 +2916,7 @@ ul.icons {
 
 	.split > :nth-child(2n - 1) {
 		padding-right: 2.5em;
-		border-right: solid 2px #332cf2;
+		border-right: solid 2px #18191a;
 	}
 
 	.split > :nth-child(2n) {
@@ -2962,7 +2962,7 @@ ul.icons {
 		}
 
 			.split > * {
-				border-top: solid 2px #332cf2;
+				border-top: solid 2px #18191a;
 				margin: 4em 0 0 0;
 				padding: 4em 0 0 0;
 				width: 100% !important;
@@ -3153,7 +3153,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 2px #332cf2 ;
+		border: solid 2px #18191a ;
 		border-left: 0;
 		border-right: 0;
 	}
@@ -3175,11 +3175,11 @@ table {
 	}
 
 	table thead {
-		border-bottom: solid 2px #332cf2;
+		border-bottom: solid 2px #18191a;
 	}
 
 	table tfoot {
-		border-top: solid 2px #332cf2;
+		border-top: solid 2px #18191a;
 	}
 
 	table.alt {
@@ -3187,7 +3187,7 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 2px #332cf2;
+			border: solid 2px #18191a;
 			border-left-width: 0;
 			border-top-width: 0;
 		}
@@ -3388,7 +3388,7 @@ table {
 
 		#header > .title {
 			border: 0;
-			color: #332cf2;
+			color: #18191a;
 			display: block;
 			font-size: 1.25em;
 			font-weight: bold;
@@ -3427,7 +3427,7 @@ table {
 
 					#header > nav > ul > li a {
 						border: 0;
-						color: #332cf2;
+						color: #18191a;
 						display: inline-block;
 						font-size: 1em;
 						font-weight: bold;
@@ -3436,14 +3436,14 @@ table {
 
 
 						#header > nav > ul > li a:hover {
-							color: rgba(51, 44, 242, 0.80);
+							color: rgba(24, 25, 26, 0.799)
 
 						}
 						
 
 
 						#header > nav > ul > li a.active {
-							border-bottom: solid 2px #332cf2;
+							border-bottom: solid 2px #18191a;
 						}
 						
 					
@@ -3795,10 +3795,10 @@ table {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #332cf2, #77857a);
-				background-image: -webkit-linear-gradient(to right, #332cf2, #77857a);
-				background-image: -ms-linear-gradient(to right, #332cf2, #77857a);
-				background-image: linear-gradient(to right, #332cf2, #77857a);
+				background-image: -moz-linear-gradient(to right, #18191a, #77857a);
+				background-image: -webkit-linear-gradient(to right, #18191a, #77857a);
+				background-image: -ms-linear-gradient(to right, #18191a, #77857a);
+				background-image: linear-gradient(to right, #18191a, #77857a);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3807,7 +3807,7 @@ table {
 			}
 
 			#sidebar nav a:hover {
-				color: #332cf2;
+				color: #18191a;
 			}
 
 			#sidebar nav a.active {
@@ -3887,7 +3887,7 @@ table {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #332cf2;
+							background-color: #18191a;
 						}
 
 		}
@@ -3967,7 +3967,7 @@ table {
 	height: 4rem;
 	padding: 1rem;
 	background: #ffffff;
-	border-color: #332cf2;
+	border-color: #18191a;
   	cursor: pointer;
 	border-radius: 0%;
 	text-align: center;
@@ -3979,12 +3979,12 @@ table {
   }
 
   .back-to-top-icon {
-	color:#332cf2;
+	color:#18191a;
 	
   }
 
 .back-to-top:hover {
-	background: #332cf2;
+	background: #18191a;
 	border-radius: 100%;
 }
  */
