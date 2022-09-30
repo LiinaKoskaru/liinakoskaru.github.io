@@ -1,4 +1,7 @@
 @import url(fontawesome-all.min.css);
+@import url('switzer.css');
+
+
 
 /*
 	Hyperspace by HTML5 UP
@@ -116,9 +119,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #18191a;
-		font-family: 'Work Sans', sans-serif;
+		font-family: 'Switzer-Regular', sans-serif;
 		font-size: 16.5pt;
-		font-weight: normal;
 		line-height: 1.75;
 	}
 
@@ -166,7 +168,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #18191a;
-		font-weight: bold;
+		font-family: 'Switzer-Medium';
 	}
 
 	em, i {
@@ -188,7 +190,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #18191a;
-		font-weight: bold;
+		font-family: 'Switzer-Medium';
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
 	}
@@ -3383,6 +3385,7 @@ table {
 		background-color: #eaf4ec;
 		cursor: default;
 		padding: 1.75em 2em;
+		align-items: center;
 		
 	}
 
@@ -3390,8 +3393,8 @@ table {
 			border: 0;
 			color: #18191a;
 			display: block;
-			font-size: 1.25em;
-			font-weight: bold;
+			font-size: 1.6em;
+			font-family: 'Switzer-Medium';
 		}
 
 		#header > nav {
@@ -3429,14 +3432,13 @@ table {
 						border: 0;
 						color: #18191a;
 						display: inline-block;
-						font-size: 1em;
-						font-weight: bold;
-						letter-spacing: 0.1em;
+						font-size: 1.6em;
+						font-family: 'Switzer-Medium';
 					}
 
 
 						#header > nav > ul > li a:hover {
-							color: rgba(24, 25, 26, 0.799)
+							color: rgba(24, 25, 26, 0.70)
 
 						}
 						
@@ -3461,7 +3463,8 @@ table {
 			/*transform: skew(-0.06turn, -8deg);*/
 			letter-spacing: -1px;
 		}
-Animated text 
+		
+		/* Animated logo text
 
 		.animate-text {
             background-image: linear-gradient(
@@ -3489,7 +3492,7 @@ Animated text
   			}
 			}
 
-	
+	*/
 
 		
 /* Wrapper (main) */
