@@ -3458,10 +3458,10 @@ table {
 
 
 		.title {
-			transform: skew(-0.06turn, -8deg);
+			/*transform: skew(-0.06turn, -8deg);*/
 			letter-spacing: -1px;
 		}
-/* Animated text 
+Animated text 
 
 		.animate-text {
             background-image: linear-gradient(
@@ -3489,7 +3489,7 @@ table {
   			}
 			}
 
-		*/
+	
 
 		
 /* Wrapper (main) */
