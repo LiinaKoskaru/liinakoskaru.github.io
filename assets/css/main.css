@@ -1844,7 +1844,7 @@ button,
 	border: solid 1px !important;
 	border-color: #18191a !important;
 	color: #18191a !important;
-	cursor: pointer;
+	/* cursor: pointer;*/
 	display: inline-block;
 	font-size: 0.6em;
 	font-weight: 700;
@@ -1852,7 +1852,7 @@ button,
 	letter-spacing: 0.25em;
 	line-height: 4.75em;
 	outline: 0;
-	padding: 0 3.75em;
+	padding: 0 2em;
 	position: relative;
 	text-align: center;
 	text-decoration: none;
@@ -1875,7 +1875,6 @@ button,
 		-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 		transition: opacity 0.2s ease, transform 0.2s ease;
 		background: #eaf4ec;
-		border-radius: 3em;
 		content: '';
 		height: 100%;
 		left: 0;
@@ -1933,6 +1932,8 @@ button,
 		.button.primary:after {
 			display: none;
 		}
+
+
 
 	input[type="submit"].disabled, input[type="submit"]:disabled,
 	input[type="reset"].disabled,
@@ -2503,7 +2504,6 @@ input[type="radio"] + label:before {
 	text-decoration: none;
 	border-bottom: none;
 	position: relative;
-
 	
 
 }
@@ -2519,6 +2519,7 @@ input[type="radio"] + label:before {
 		text-transform: none !important;
 		font-family: 'Font Awesome 5 Free';
 		font-weight: 400;
+		
 		
 	}
 
@@ -2545,12 +2546,12 @@ input[type="radio"] + label:before {
 		width: 2.5em;
 		height: 2.5em;
 		display: block;
-		background: #18191a;
-		border-radius: 100%;
-		color: #eaf4ec;
+		background: #ffffff;
+		border: 1px solid #18191a !important;
+		color: #18191a;
 		text-align: center;
 		line-height: 2.5em;
-		margin: 0 0 1.3em 0;
+		margin: 0;
 	}
 
 		.icon.major:before {
@@ -2558,27 +2559,27 @@ input[type="radio"] + label:before {
 		}
 
 			.wrapper.style1 .icon.major:before {
-				color: #eaf4ec;
+				color: #18191a;
 			}
 
 			.wrapper.style1-alt .icon.major:before {
-				color: #eaf4ec;
+				color: #18191a;
 			}
 
 			.wrapper.style2 .icon.major:before {
-				color: #eaf4ec;
+				color: #18191a;
 			}
 
 			.wrapper.style2-alt .icon.major:before {
-				color: #eaf4ec
+				color: #18191a;
 			}
 
 			.wrapper.style3 .icon.major:before {
-				color: #eaf4ec;
+				color: #18191a;
 			}
 
 			.wrapper.style3-alt .icon.major:before {
-				color: #eaf4ec;
+				color: #18191a;
 			}
 
 
@@ -3406,6 +3407,11 @@ table {
 		cursor: default;
 		padding: 1em 2em;
 		align-items: center;
+		position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
 		
 	}
 
@@ -3439,7 +3445,7 @@ table {
 
 				#header > nav > ul > li {
 					display: inline-block;
-					margin-left: 1.75em;
+					margin-left: 1em;
 					padding: 0;
 					vertical-align: middle;
 		
@@ -3464,7 +3470,8 @@ table {
 
 
 						#header > nav > ul > li a:hover {
-							color: rgba(24, 25, 26, 0.70)
+							color: rgba(255, 255, 255);
+							background-color: #18191a;
 
 						}
 						
@@ -3975,10 +3982,9 @@ table {
 /* Back to top button */
 
 .back-to-top {
-	position: fixed;
-	right: 2rem;
-	bottom: 2rem;
   	cursor: none;
+
+
   }
 
   .hidden {
@@ -3989,7 +3995,8 @@ table {
 /* Cursor style */
 
 body {
-	cursor: none;
+	cursor: none !important;
+
 
 }
 
