@@ -42,7 +42,7 @@
 					<section id="main" class="wrapper fade-up">
 						<div class="inner">
 							<video class="image fit" autoplay="autoplay" loop="loop" muted defaultMuted playsinline>
-								<source src="images/sweepbank-sw-green-loop.mp4" type="video/mp4">
+								<source src="images/sw-loading.mp4" type="video/mp4">
 								<source src="movie.ogg" type="video/ogg">
 							</video>
 							
@@ -71,8 +71,7 @@
 							
 							
 							<span class="image fit"><img src="images/sweepbank-homepage-hero.jpg" alt="" /></span>
-							<span class="image fit"><img src="images/sweepbank-sitemap.jpg" alt="" /></span>
-							<span class="image fit"><img src="images/sweepbank-design-system.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/sweepbank-signup.jpg" alt="" /></span>
 							<span class="image fit"><img src="images/sweepbank-website-screens-set-01.jpg" alt="" /></span>	
 							<span class="image fit"><img src="images/sweepbank-website-screens-set-02.jpg" alt="" /></span>
 
@@ -87,7 +86,7 @@
 							</video>
 							<span class="image fit"><img src="images/sweepbank-app-store.jpg" alt="" /></span>	
 							<span class="image fit"><img src="images/sweepbank-experience-money.jpg" alt="" /></span>
-							<span class="image fit"><img src="images/sweepbank-social-set-02.jpg" alt="" /></span>
+							<span class="image fit"><img src="images/sweepbank-banners.jpg" alt="" /></span>
 							<video class="image fit" autoplay="autoplay" loop="loop" muted defaultMuted playsinline>
 								<source src="images/sweepbank-90days-campaign-video.mp4" type="video/mp4">
 								<source src="movie.ogg" type="video/ogg">
@@ -201,6 +200,31 @@
 				}
 			</script>
  -->
+
+
+<!-- Cursor style -->
+ <script>
+    function createCustomCursor() {
+        const cursor = document.createElement("div");
+        cursor.setAttribute("id", "myCustomCursor");
+        document.body.appendChild(cursor);
+
+        initCustomCursor(cursor)
+    }
+
+    function initCustomCursor(cursor) {
+        document.body.onmousemove = function(e) {
+            cursor.style.setProperty('--x', (e.clientX) + 'px');
+            cursor.style.setProperty('--y', (e.clientY) + 'px');
+        }
+    }
+
+if (window.innerWidth > 1024) {   
+	    createCustomCursor();
+} else {
+console.log('Screen size is smaller then 1024px width')
+}
+</script>
 
 
 		<!-- Scripts -->

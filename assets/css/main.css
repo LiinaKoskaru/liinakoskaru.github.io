@@ -3412,7 +3412,7 @@ table {
 			border: 0;
 			color: #18191a;
 			display: block;
-			font-size: 1.6em;
+			font-size: 1.25em;
 			font-family: 'Switzer-Medium', sans-serif;
 			font-weight: 500;
 			font-display: swap;
@@ -3454,7 +3454,7 @@ table {
 						border: 0;
 						color: #18191a;
 						display: inline-block;
-						font-size: 1.6em;
+						font-size: 1em;
 						font-family: 'Switzer-Medium', sans-serif;
 						font-weight: 500;
 						font-display: swap;
@@ -3984,7 +3984,28 @@ table {
 	display: none;
   }
 
+/*Cursor style*/
 
+body {
+	cursor: none;
+
+}
+
+#myCustomCursor {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	background: rgb(255 255 255);
+	border-radius: 50%;
+	top: var(--y, 0);
+	left: var(--x, 0);
+	transform: translate(-50%, -50%);
+	mix-blend-mode: difference;
+	pointer-events: none;
+	transition-duration: 300ms;
+	transition-timing-function: ease-out;
+	z-index: 99999;
+}
 
 
 /* Back to top button
@@ -4019,36 +4040,3 @@ table {
 }
  */
 
-/* Cursor style
-
-body {
-	cursor: none;
-}
-
-#cursor {
-	height:40px;
-	width: 40px;
-
-	border: 2px solid #18191a;
-	border-radius: 50%;
-	position: absolute;
-	display: none;
-}
-
-header:hover ~ #cursor {
-    transform: scale(0.5);
-	background: #18191a;
-	border: none;
-	
-}
-
-footer:hover ~ #cursor {
-    transform: scale(0.5);
-	background: #18191a;
-	border: none;
-}
-
-a {
-	cursor:none;
-}
-*/
