@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #eaf4ec;
+		background: linear-gradient(#eaf4ec, #ffffff);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3408,10 +3408,11 @@ table {
 		cursor: default;
 		padding: 1em 2em;
 		align-items: center;
-		position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
+
+		/* position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 9999;*/
 }
 		
 
@@ -3556,11 +3557,11 @@ table {
 		margin: 0 auto;
 	}
 
-	#wrapper {
+	/* #wrapper {
 
 		padding-top: 72px;
 	}
-
+*/
 
 /* Footer */
 
@@ -3993,4 +3994,41 @@ table {
 			scroll-behavior: smooth;
 		  }
 
-		
+
+		/*Back To Top Button and Page Progressbar*/
+
+		  .back-to-top {
+			position: fixed;
+			right: 2rem;
+			bottom: 2rem;
+			border-radius: 100%;
+			background: #141c38;
+			padding: 0.5rem;
+			border: none;
+			cursor: pointer;
+			opacity: 100%;
+			transition: opacity 0.5s;
+		  }
+		  
+		  .back-to-top:hover {
+			opacity: 60%;
+		  }
+		  
+		  .hidden {
+			opacity: 0%;
+		  }
+		  
+		  .back-to-top-icon {
+			width: 1rem;
+			height: 1rem;
+			color: #7ac9f9;
+		  }
+		  
+		  .progress-bar {
+			height: 1rem;
+			background: yellow;
+			position: fixed;
+			top: 0;
+			left: 0;
+		  }
+		  
