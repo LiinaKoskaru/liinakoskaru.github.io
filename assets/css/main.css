@@ -3237,7 +3237,6 @@ table {
 
 	.wrapper {
 		position: relative;
-		margin-top: 64px;
 	}
 
 		.wrapper > .inner {
@@ -3586,6 +3585,10 @@ table {
 
 	#header + #wrapper + #footer > .inner {
 		margin: 0 auto;
+	}
+
+	#footer {
+		background-color: white;
 	}
 
 /* Sidebar */
