@@ -1845,7 +1845,7 @@ button,
 	border: solid 1px !important;
 	border-color: #18191a !important;
 	color: #18191a !important;
-	/* cursor: pointer;*/
+	cursor: pointer;
 	display: inline-block;
 	font-size: 0.6em;
 	font-weight: 700;
@@ -3997,7 +3997,7 @@ body {
 	transform: translate(-50%, -50%);
 	mix-blend-mode: difference;
 	pointer-events: none;
-	transition-duration: 300ms;
+	transition-duration: 100ms;
 	transition-timing-function: ease-out;
 	z-index: 99999;
 }
