@@ -3556,6 +3556,12 @@ table {
 		margin: 0 auto;
 	}
 
+	#wrapper {
+
+		padding-top: 72px;
+	}
+
+
 /* Footer */
 
 	#sidebar + #wrapper + #footer {
@@ -3579,7 +3585,7 @@ table {
 		}
 
 	#footer > .inner .menu {
-		font-size: 0.8em;
+		font-size: 1.25em;
 		color: #1a181a;
 	}
 
@@ -3980,3 +3986,11 @@ table {
 			}
 
 		}
+
+
+		/* Back to top */
+		html {
+			scroll-behavior: smooth;
+		  }
+
+		
