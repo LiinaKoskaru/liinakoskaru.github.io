@@ -156,7 +156,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: solid 2px #18191a;
+		border-bottom: solid 1px #18191a;
 		color: inherit;
 		text-decoration: none;
 		position: relative;
@@ -1841,9 +1841,8 @@ button,
 	-ms-transition: border-color 0.2s ease;
 	transition: border-color 0.2s ease;
 	background-color: transparent;
-	border: solid 2px !important;
+	border: solid 1px !important;
 	border-color: #18191a !important;
-	border-radius: 3em;
 	color: #18191a !important;
 	cursor: pointer;
 	display: inline-block;
@@ -1989,7 +1988,9 @@ button,
 				opacity: 0.1;
 			}
 
-			
+		
+
+
 
 /* Features */
 
@@ -2003,7 +2004,7 @@ button,
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	border-radius: 0.25em;
-	border: solid 2px #18191a;
+	border: solid 1px #18191a;
 	background: #eaf4ec;
 	margin: 0 0 2em 0;
 }
@@ -2011,7 +2012,7 @@ button,
 	.features section {
 		padding: 3.5em 3em 1em 7em ;
 		width: 50%;
-		border-top: solid 2px #18191a;
+		border-top: solid 1px #18191a;
 		position: relative;
 	}
 
@@ -2020,7 +2021,7 @@ button,
 		}
 
 		.features section:nth-child(2n) {
-			border-left: solid 2px #18191a;
+			border-left: solid 1px #18191a;
 		}
 
 		.features section .icon {
@@ -2197,7 +2198,7 @@ button,
 		}
 
 			.features section {
-				border-top-width: 2px !important;
+				border-top-width: 1px !important;
 				border-left-width: 0 !important;
 				width: 100%;
 			}
@@ -2331,7 +2332,7 @@ textarea {
 	background: #eaf4ec;
 	border-radius: 0.25em;
 	border: none;
-	border: solid 2px #18191a;
+	border: solid 1px #18191a;
 	color: inherit;
 	display: block;
 	outline: 0;
@@ -2442,7 +2443,7 @@ input[type="radio"] {
 		input[type="radio"] + label:before {
 			background: #eaf4ec;
 			border-radius: 0.25em;
-			border: solid 2px #18191a;
+			border: solid 1px #18191a;
 			content: '';
 			display: inline-block;
 			font-size: 0.8em;
@@ -2664,7 +2665,7 @@ input[type="radio"] + label:before {
 		}
 
 			ul.alt li {
-				border-top: solid 2px #18191a;
+				border-top: solid 1px #18191a;
 				padding: 0.5em 0;
 			}
 
@@ -2863,7 +2864,7 @@ ul.icons {
 	}
 
 		ul.menu > li {
-			border-left: solid 2px #18191a;
+			border-left: solid 1px #18191a;
 			display: inline-block;
 			line-height: 1;
 			margin-left: 1.5em;
@@ -2935,7 +2936,7 @@ ul.icons {
 
 	.split > :nth-child(2n - 1) {
 		padding-right: 2.5em;
-		border-right: solid 2px #18191a;
+		border-right: solid 1px #18191a;
 	}
 
 	.split > :nth-child(2n) {
@@ -2981,7 +2982,7 @@ ul.icons {
 		}
 
 			.split > * {
-				border-top: solid 2px #18191a;
+				border-top: solid 1px #18191a;
 				margin: 4em 0 0 0;
 				padding: 4em 0 0 0;
 				width: 100% !important;
@@ -3172,7 +3173,7 @@ table {
 }
 
 	table tbody tr {
-		border: solid 2px #18191a ;
+		border: solid 1px #18191a ;
 		border-left: 0;
 		border-right: 0;
 	}
@@ -3196,11 +3197,11 @@ table {
 	}
 
 	table thead {
-		border-bottom: solid 2px #18191a;
+		border-bottom: solid 1px #18191a;
 	}
 
 	table tfoot {
-		border-top: solid 2px #18191a;
+		border-top: solid 1px #18191a;
 	}
 
 	table.alt {
@@ -3208,17 +3209,17 @@ table {
 	}
 
 		table.alt tbody tr td {
-			border: solid 2px #18191a;
+			border: solid 1px #18191a;
 			border-left-width: 0;
 			border-top-width: 0;
 		}
 
 			table.alt tbody tr td:first-child {
-				border-left-width: 2px;
+				border-left-width: 1px;
 			}
 
 		table.alt tbody tr:first-child td {
-			border-top-width: 2px;
+			border-top-width: 1px;
 		}
 
 		table.alt thead {
@@ -3470,7 +3471,7 @@ table {
 
 
 						#header > nav > ul > li a.active {
-							border-bottom: solid 2px #18191a;
+							border-bottom: solid 1px #18191a;
 						}
 						
 					
