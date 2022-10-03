@@ -3237,6 +3237,7 @@ table {
 
 	.wrapper {
 		position: relative;
+		margin-top: 64px;
 	}
 
 		.wrapper > .inner {
@@ -3976,30 +3977,3 @@ table {
 			}
 
 		}
-
-
-
-/* Cursor style */
-
-body {
-	cursor: none !important;
-
-}
-
-#myCustomCursor {
-	position: fixed;
-	width: 40px;
-	height: 40px;
-	background: rgb(255 255 255);
-	border-radius: 50%;
-	top: var(--y, 0);
-	left: var(--x, 0);
-	transform: translate(-50%, -50%);
-	mix-blend-mode: difference;
-	pointer-events: none;
-	transition-duration: 100ms;
-	transition-timing-function: ease-out;
-	z-index: 99999;
-}
-
-

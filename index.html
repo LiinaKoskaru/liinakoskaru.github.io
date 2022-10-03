@@ -126,7 +126,7 @@
 					<ul class="menu">
 						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 						<li>Revised by Liina Koskaru</li>
-						<li class="back-to-top">Back to top &#9757;</li>
+						<li class="back-to-top"> <a href="">Back to top</a>&#9757;</li>
 					</ul>
 					
 				</div>
@@ -134,59 +134,7 @@
 			</footer>    
 
 
-		<!-- Back to top button -->	
-			<script>
-				const showOnPx = 500;
-				const backToTopButton = document.querySelector(".back-to-top")
 	
-				const scrollContainer = () => {
-				  return document.documentElement || document.body;
-				};
-	
-				document.addEventListener("scroll", () => {
-				  if (scrollContainer().scrollTop > showOnPx) {
-				   backToTopButton.classList.remove("hidden")
-				  } else {
-				backToTopButton.classList.add("hidden")
-				  }
-				})
-	
-				const goToTop = () => {
-				  document.body.scrollIntoView({
-				behavior: "smooth",
-				 });
-				};
-	
-				backToTopButton.addEventListener("click", goToTop)
-	
-				</script>	
-
-
-
-		<!-- Cursor style -->
-		
- 			<script>
-    		function createCustomCursor() {
-        	const cursor = document.createElement("div");
-        	cursor.setAttribute("id", "myCustomCursor");
-        	document.body.appendChild(cursor);
-
-        	initCustomCursor(cursor)
-   			}
-
-    		function initCustomCursor(cursor) {
-        	document.body.onmousemove = function(e) {
-            cursor.style.setProperty('--x', (e.clientX) + 'px');
-            cursor.style.setProperty('--y', (e.clientY) + 'px');
-        	}
-    		}
-
-			if (window.innerWidth > 1024) {   
-	    	createCustomCursor();
-			} else {
-			console.log('Screen size is smaller then 1024px width')
-			}
-			</script>
 
 
 		<!-- Scripts -->
