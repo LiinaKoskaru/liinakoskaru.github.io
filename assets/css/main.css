@@ -161,6 +161,7 @@ input, select, textarea {
 		text-decoration: none;
 		position: relative;
 		z-index: 2;
+
 		
 	}
 
@@ -3471,6 +3472,7 @@ table {
 						#header > nav > ul > li a:hover {
 							color: rgba(255, 255, 255);
 							background-color: #18191a;
+					
 
 						}
 						
@@ -3977,25 +3979,10 @@ table {
 
 
 
-
-/* Back to top button */
-
-.back-to-top {
-  	cursor: none;
-
-
-  }
-
-  .hidden {
-	display: none;
-  }
-
-
 /* Cursor style */
 
 body {
 	cursor: none !important;
-
 
 }
 
