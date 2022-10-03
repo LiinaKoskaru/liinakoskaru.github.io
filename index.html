@@ -185,46 +185,30 @@
 		
 
 
+		<!-- Cursor style -->
+		
+ 			<script>
+    		function createCustomCursor() {
+        	const cursor = document.createElement("div");
+        	cursor.setAttribute("id", "myCustomCursor");
+        	document.body.appendChild(cursor);
 
+        	initCustomCursor(cursor)
+   			}
 
-		<!-- Cursor style
-			<div id="cursor">
-			</div>
-			<script>
-				var cursor = document.getElementById("cursor");
-
-				document.onmousemove = function(e){
-					cursor.style.left = (e.pageX - 25) + "px";
-					cursor.style.top = (e.pageY -25) + "px";
-					cursor.style.display = "block";
-				}
-			</script>
- -->
-
-
-<!-- Cursor style -->
- <script>
-    function createCustomCursor() {
-        const cursor = document.createElement("div");
-        cursor.setAttribute("id", "myCustomCursor");
-        document.body.appendChild(cursor);
-
-        initCustomCursor(cursor)
-    }
-
-    function initCustomCursor(cursor) {
-        document.body.onmousemove = function(e) {
+    		function initCustomCursor(cursor) {
+        	document.body.onmousemove = function(e) {
             cursor.style.setProperty('--x', (e.clientX) + 'px');
             cursor.style.setProperty('--y', (e.clientY) + 'px');
-        }
-    }
+        	}
+    		}
 
-if (window.innerWidth > 1024) {   
-	    createCustomCursor();
-} else {
-console.log('Screen size is smaller then 1024px width')
-}
-</script>
+			if (window.innerWidth > 1024) {   
+	    	createCustomCursor();
+			} else {
+			console.log('Screen size is smaller then 1024px width')
+			}
+			</script>
 
 
 		<!-- Scripts -->
