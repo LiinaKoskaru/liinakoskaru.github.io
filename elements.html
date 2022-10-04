@@ -354,10 +354,9 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<!-- Back to top button -->	
 
 			<button class="back-to-top button primary icon solid fa-arrow-up hidden"
-			style="padding-left: 24px; padding-right: 24px;"></button>
+			>Top</button>
 		
-	
-
+		
 			<script>
 				const showOnPx = 500;
 				const backToTopButton = document.querySelector(".back-to-top")
@@ -385,31 +384,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				</script>	
 
 
-
-		<!-- Cursor style -->
-		
- 			<script>
-    		function createCustomCursor() {
-        	const cursor = document.createElement("div");
-        	cursor.setAttribute("id", "myCustomCursor");
-        	document.body.appendChild(cursor);
-
-        	initCustomCursor(cursor)
-   			}
-
-    		function initCustomCursor(cursor) {
-        	document.body.onmousemove = function(e) {
-            cursor.style.setProperty('--x', (e.clientX) + 'px');
-            cursor.style.setProperty('--y', (e.clientY) + 'px');
-        	}
-    		}
-
-			if (window.innerWidth > 1024) {   
-	    	createCustomCursor();
-			} else {
-			console.log('Screen size is smaller then 1024px width')
-			}
-			</script>
 
 
 

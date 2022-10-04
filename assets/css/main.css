@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(#eaf4ec, #ffffff);
+		background: linear-gradient(#fcfaf6, #ffffff);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -283,9 +283,9 @@ input, select, textarea {
 	}
 
 	code {
-		background: rgba(255, 255, 255, 0.05);
+		background: rgb(255, 255, 255);
 		border-radius: 0.25em;
-		border: solid 1px rgba(255, 255, 255, 0.15);
+		border: solid 1px #18191a;
 		font-family: 'Switzer-Semibold', sans-serif;
 		font-weight: 600;
 		font-display: swap;
@@ -3404,7 +3404,7 @@ table {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #eaf4ec;
+		background-color: #fcfaf6;
 		cursor: default;
 		padding: 1em 2em;
 		align-items: center;
@@ -3446,7 +3446,7 @@ table {
 
 				#header > nav > ul > li {
 					display: inline-block;
-					margin-left: 1em;
+					margin-left: 0.6em;
 					padding: 0;
 					vertical-align: middle;
 		
@@ -3495,41 +3495,11 @@ table {
 
 
 		.title {
-			/*transform: skew(-0.06turn, -8deg);*/
-			letter-spacing: -1px;
+			letter-spacing: 1px;
 		}
-		
-		/* Animated logo text
 
-		.animate-text {
-            background-image: linear-gradient(
-           -225deg,
-           #332cf2 0%,
-           #18191a 29%,
-           #332cf2 67%,
-           #77857a 100%
-  			);
-   			background-size: auto auto;
-  			background-clip: border-box;
-  			background-size: 200% auto;
- 			color: #fff;
-  			background-clip: text;
-  			-webkit-background-clip: text;
-  			-webkit-text-fill-color: transparent;
-  			animation: textclip 2s linear infinite;
-  			display: inline-block;
-      		font-size: 190px;
-			}
 
-			@keyframes textclip {
-  			to {
-    		background-position: 200% center;
-  			}
-			}
 
-	*/
-
-		
 /* Wrapper (main) */
 
 	#sidebar + #wrapper {
@@ -3557,11 +3527,6 @@ table {
 		margin: 0 auto;
 	}
 
-	/* #wrapper {
-
-		padding-top: 72px;
-	}
-*/
 
 /* Footer */
 
@@ -3845,10 +3810,10 @@ table {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #18191a, #77857a);
-				background-image: -webkit-linear-gradient(to right, #18191a, #77857a);
-				background-image: -ms-linear-gradient(to right, #18191a, #77857a);
-				background-image: linear-gradient(to right, #18191a, #77857a);
+				background-image: -moz-linear-gradient(to right, #77857a, #ffff00);
+				background-image: -webkit-linear-gradient(to right, #77857a, #ffff00);
+				background-image: -ms-linear-gradient(to right, #77857a, #ffff00);
+				background-image: linear-gradient(to right, #77857a, #ffff00);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3857,7 +3822,7 @@ table {
 			}
 
 			#sidebar nav a:hover {
-				color: #18191a;
+				color: rgba(24, 25, 26, 0.50);
 			}
 
 			#sidebar nav a.active {
@@ -3989,46 +3954,32 @@ table {
 		}
 
 
-		/* Back to top */
+		/* Back to top link on footer */
 		html {
 			scroll-behavior: smooth;
 		  }
 
+		/* Page Progressbar*/
 
-		/*Back To Top Button and Page Progressbar*/
-
-		  .back-to-top {
-			position: fixed;
-			right: 2rem;
-			bottom: 2rem;
-			border-radius: 100%;
-			background: #141c38;
-			padding: 0.5rem;
-			border: none;
-			cursor: pointer;
-			opacity: 100%;
-			transition: opacity 0.5s;
-		  }
-		  
-		  .back-to-top:hover {
-			opacity: 60%;
-		  }
-		  
-		  .hidden {
-			opacity: 0%;
-		  }
-		  
-		  .back-to-top-icon {
-			width: 1rem;
-			height: 1rem;
-			color: #7ac9f9;
-		  }
-		  
-		  .progress-bar {
+		.progress-bar {
 			height: 1rem;
 			background: yellow;
 			position: fixed;
 			top: 0;
 			left: 0;
 		  }
+		  
+
+		/* Back To Top Button*/ 
+		  .back-to-top {
+			position: fixed;
+			right: 2rem;
+			bottom: 2rem;
+			cursor: pointer;
+		  }
+		  
+		  .hidden {
+			opacity: 0%;
+		  }
+		
 		  
