@@ -3409,6 +3409,7 @@ table {
 		padding: 1em 2em;
 		align-items: center;
 
+
 		/* position: fixed;
 		top: 0;
 		width: 100%;
@@ -3425,6 +3426,7 @@ table {
 			font-weight: 600;
 			font-display: swap;
 			font-style: normal;
+			letter-spacing: 1px;
 		}
 
 		#header > nav {
@@ -3467,6 +3469,7 @@ table {
 						font-weight: 600;
 						font-display: swap;
 						font-style: normal;
+					
 					}
 
 
@@ -3481,6 +3484,7 @@ table {
 
 						#header > nav > ul > li a.active {
 							border-bottom: solid 1px #18191a;
+							
 						}
 						
 					
@@ -3982,4 +3986,5 @@ table {
 			opacity: 0%;
 		  }
 		
-		  
+
+		
