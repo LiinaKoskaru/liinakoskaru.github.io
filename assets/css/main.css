@@ -3943,33 +3943,24 @@ table {
 		}
 
 
-		/* Back to top link on footer */
-		html {
-			scroll-behavior: smooth;
-		  }
+/* Back to top link on footer */
 
-		/* Page Progressbar*/
+	html {
+		scroll-behavior: smooth;
+	}
 
-		.progress-bar {
-			height: 1rem;
-			background: yellow;
-			position: fixed;
-			top: 0;
-			left: 0;
-		  }
-		  
+/* Progress Bar */
 
-		/* Back To Top Button*/ 
-		  .back-to-top {
-			position: fixed;
-			right: 2rem;
-			bottom: 2rem;
-			cursor: pointer;
-		  }
-		  
-		  .hidden {
-			opacity: 0%;
-		  }
-		
+	.scroll-line{
+		background: yellow;
+		top: 0;
+		left: 0;
+		height: 16px;
+		position: fixed;
+		transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+		z-index: 10000;
+		}
+
+
 
 		

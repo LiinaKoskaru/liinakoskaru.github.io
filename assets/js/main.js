@@ -190,43 +190,16 @@
 })(jQuery);
 
 
+	// Back To Top Button and Page Progressbar.
+		const scrollline = document.querySelector('.scroll-line');
 
+      		function fillscrollline(){
+        const windowHeight = window.innerHeight;
+        const fullHeight = document.body.clientHeight;
+        const scrolled = window.scrollY;
+        const percentScrolled = (scrolled / (fullHeight - windowHeight)) * 100;
 
+        scrollline.style.width = percentScrolled + '%';
+      	};
 
-// Back To Top Button and Page Progressbar.
-
-const showOnPx = 100;
-const backToTopButton = document.querySelector(".back-to-top");
-const pageProgressBar = document.querySelector(".progress-bar");
-
-const scrollContainer = () => {
-  return document.documentElement || document.body;
-};
-
-const goToTop = () => {
-  document.body.scrollIntoView({
-    behavior: "smooth"
-  });
-};
-
-document.addEventListener("scroll", () => {
-  console.log("Scroll Height: ", scrollContainer().scrollHeight);
-  console.log("Client Height: ", scrollContainer().clientHeight);
-
-  const scrolledPercentage =
-    (scrollContainer().scrollTop /
-      (scrollContainer().scrollHeight - scrollContainer().clientHeight)) *
-    100;
-
-  pageProgressBar.style.width = `${scrolledPercentage}%`;
-
-  if (scrollContainer().scrollTop > showOnPx) {
-    backToTopButton.classList.remove("hidden");
-  } else {
-    backToTopButton.classList.add("hidden");
-  }
-});
-
-backToTopButton.addEventListener("click", goToTop);
-
-
+      	window.addEventListener('scroll', fillscrollline);
