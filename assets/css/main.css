@@ -3418,10 +3418,10 @@ table {
 			font-weight: 600;
 			font-style: normal;
 
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			-moz-transition: opacity 1s ease !important;
+			-webkit-transition: opacity 1s ease !important;
+			-ms-transition: opacity 1s ease !important;
+			transition: opacity 1s ease !important;
 		}
 
 		#header > nav {
@@ -3445,12 +3445,12 @@ table {
 					margin-left: 0.6em;
 					padding: 0;
 					vertical-align: middle;
-
-					-moz-transition: opacity 1s ease;
-					-webkit-transition: opacity 1s ease;
-					-ms-transition: opacity 1s ease;
-					transition: opacity 1s ease;
-		}
+					
+					-moz-transition: opacity 1s ease !important;
+					-webkit-transition: opacity 1s ease !important;
+					-ms-transition: opacity 1s ease !important;
+					transition: opacity 1s ease !important;
+				}
 			
 			
 					#header > nav > ul > li:first-child {
@@ -3458,24 +3458,24 @@ table {
 					}
 
 					#header > nav > ul > li:nth-child(1) {
-						-moz-transition-delay: 0.45s;
-						-webkit-transition-delay: 0.45s;
-						-ms-transition-delay: 0.45s;
-						transition-delay: 0.45s;
+						-moz-transition-delay: 0.45s !important;
+						-webkit-transition-delay: 0.45s !important;
+						-ms-transition-delay: 0.45s !important;
+						transition-delay: 0.45s !important;
 					}
 
 					#header > nav > ul > li:nth-child(2) {
-						-moz-transition-delay: 0.45s;
-						-webkit-transition-delay: 0.45s;
-						-ms-transition-delay: 0.45s;
-						transition-delay: 0.45s;
+						-moz-transition-delay: 0.45s !important;
+						-webkit-transition-delay: 0.45s !important;
+						-ms-transition-delay: 0.45s !important;
+						transition-delay: 0.45s !important;
 					}
 
 					#header > nav > ul > li:nth-child(3) {
-						-moz-transition-delay: 0.45s;
-						-webkit-transition-delay: 0.45s;
-						-ms-transition-delay: 0.45s;
-						transition-delay: 0.45s;
+						-moz-transition-delay: 0.45s !important;
+						-webkit-transition-delay: 0.45s !important;
+						-ms-transition-delay: 0.45s !important;
+						transition-delay: 0.45s !important;
 					}
 
 
