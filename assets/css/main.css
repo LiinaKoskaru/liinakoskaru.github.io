@@ -3417,6 +3417,11 @@ table {
 			font-family: 'Switzer-Semibold', sans-serif;
 			font-weight: 600;
 			font-style: normal;
+
+			-moz-transition: opacity 1s ease;
+			-webkit-transition: opacity 1s ease;
+			-ms-transition: opacity 1s ease;
+			transition: opacity 1s ease;
 		}
 
 		#header > nav {
@@ -3425,7 +3430,6 @@ table {
 			-ms-flex: 1;
 			flex: 1;
 			text-align: right;
-		
 		}
 
 			#header > nav > ul {
@@ -3441,13 +3445,39 @@ table {
 					margin-left: 0.6em;
 					padding: 0;
 					vertical-align: middle;
-		
-					
-				}
 
+					-moz-transition: opacity 1s ease;
+					-webkit-transition: opacity 1s ease;
+					-ms-transition: opacity 1s ease;
+					transition: opacity 1s ease;
+		}
+			
+			
 					#header > nav > ul > li:first-child {
 						margin-left: 0;
 					}
+
+					#header > nav > ul > li:nth-child(1) {
+						-moz-transition-delay: 0.45s;
+						-webkit-transition-delay: 0.45s;
+						-ms-transition-delay: 0.45s;
+						transition-delay: 0.45s;
+					}
+
+					#header > nav > ul > li:nth-child(2) {
+						-moz-transition-delay: 0.45s;
+						-webkit-transition-delay: 0.45s;
+						-ms-transition-delay: 0.45s;
+						transition-delay: 0.45s;
+					}
+
+					#header > nav > ul > li:nth-child(3) {
+						-moz-transition-delay: 0.45s;
+						-webkit-transition-delay: 0.45s;
+						-ms-transition-delay: 0.45s;
+						transition-delay: 0.45s;
+					}
+
 
 
 					#header > nav > ul > li a {
