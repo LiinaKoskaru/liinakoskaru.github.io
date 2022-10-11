@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(#fcfaf6 0%, #ffffff 100%);
+		background: linear-gradient(#fcfaf6 0%, #fff 100%);
 		
 	}
 
@@ -2600,7 +2600,7 @@ input[type="radio"] + label:before {
 
 	.image {
 		border-radius: 0.80em;
-		border: 0;
+		border: 1px solid;
 		display: inline-block;
 		position: relative;
 	}
@@ -3820,8 +3820,7 @@ table {
 				transition: max-width 0.2s ease;
 				max-width: 0;
 			}
-			}
-
+			
 			#sidebar nav a:hover {
 				color: rgba(255, 255, 255, 0.55);
 			}
@@ -3973,4 +3972,3 @@ table {
 		z-index: 10000;
 		}
 
-	
