@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: linear-gradient(#fcfaf6 0%, #ffffff 95%);
+		background: linear-gradient(#fcfaf6 0%, #ffffff 100%);
 		
 	}
 
@@ -3434,6 +3434,7 @@ table {
 			font-weight: 600;
 			font-style: normal;
 			letter-spacing: 0.05em;
+		
 		}
 
 
