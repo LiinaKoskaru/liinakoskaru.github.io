@@ -3366,7 +3366,6 @@ table {
 		}
 
 
-
 		.wrapper.fade-up.inactive > .inner,
 		body.is-preload .wrapper.fade-up > .inner {
 			opacity: 0;
@@ -3484,32 +3483,7 @@ table {
 						#header > nav > ul > li a.active {
 							color:rgba(24, 25, 26, 0.5);
 						}
-						
-						.title.fade-down {
-							-moz-transform: translateY(0);
-							-webkit-transform: translateY(0);
-							-ms-transform: translateY(0);
-							transform: translateY(0);
-							-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-							-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-							-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-							transition: opacity 1s ease, transform 1s ease;
-							opacity: 1.0;
-						}
 					
-
-							
-						.button.fade-down  {
-							-moz-transform: translateY(0);
-							-webkit-transform: translateY(0);
-							-ms-transform: translateY(0);
-							transform: translateY(0);
-							-moz-transition: opacity 1s ease, -moz-transform 1s ease;
-							-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
-							-ms-transition: opacity 1s ease, -ms-transform 1s ease;
-							transition: opacity 1s ease, transform 1s ease;
-							opacity: 1.0;
-						}
 					
 
 		@media screen and (max-width: 736px) {
@@ -3991,7 +3965,7 @@ table {
 		z-index: 10000;
 		}
 
-/* Fading in/out elements */
+/* Fading in/out elements on scroll */
 
 		.scrollFade {
 			opacity: 1;
@@ -4008,3 +3982,33 @@ table {
 		  .scrollFade--animate {
 			transition: opacity 0.4s ease-in-out;
 		  }
+
+/* Header title and button fading in */
+
+		  .title {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+		.button {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
