@@ -3485,6 +3485,31 @@ table {
 							color:rgba(24, 25, 26, 0.5);
 						}
 						
+						.title.fade-down {
+							-moz-transform: translateY(0);
+							-webkit-transform: translateY(0);
+							-ms-transform: translateY(0);
+							transform: translateY(0);
+							-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+							-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+							-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+							transition: opacity 1s ease, transform 1s ease;
+							opacity: 1.0;
+						}
+					
+
+							
+						.button.fade-down  {
+							-moz-transform: translateY(0);
+							-webkit-transform: translateY(0);
+							-ms-transform: translateY(0);
+							transform: translateY(0);
+							-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+							-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+							-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+							transition: opacity 1s ease, transform 1s ease;
+							opacity: 1.0;
+						}
 					
 
 		@media screen and (max-width: 736px) {
