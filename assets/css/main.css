@@ -101,7 +101,7 @@ input, select, textarea {
 	}
 
 	body {
-		background:#f5f5f5;
+		background:#ffffff;
 		
 	}
 
@@ -1886,7 +1886,7 @@ button,
 		-webkit-transition: opacity 0.2s ease, -webkit-transform 0.2s ease;
 		-ms-transition: opacity 0.2s ease, -ms-transform 0.2s ease;
 		transition: opacity 0.2s ease, transform 0.2s ease;
-		background: #f5f5f5;
+		background: #ffffff;
 		content: '';
 		height: 100%;
 		left: 0;
@@ -2018,7 +2018,7 @@ button,
 	flex-wrap: wrap;
 	border-radius: 0.25em;
 	border: solid 1px #18191a;
-	background: #f5f5f5;
+	background: #ffffff;
 	margin: 0 0 2em 0;
 }
 
@@ -2342,7 +2342,7 @@ textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-	background: #f5f5f5;
+	background: #ffffff;
 	border-radius: 0.25em;
 	border: none;
 	border: solid 1px #18191a;
@@ -2385,7 +2385,7 @@ select {
 
 	select option {
 		color: #18191a;
-		background: #f5f5f5;
+		background: #ffffff;
 	}
 
 	select:focus::-ms-value {
@@ -2454,7 +2454,7 @@ input[type="radio"] {
 
 		input[type="checkbox"] + label:before,
 		input[type="radio"] + label:before {
-			background: #f5f5f5;
+			background: #ffffff;
 			border-radius: 0.25em;
 			border: solid 1px #18191a;
 			content: '';
@@ -3064,7 +3064,7 @@ ul.icons {
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
 			transition: opacity 1s ease;
-			background: #f5f5f5;
+			background: #ffffff;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3281,11 +3281,11 @@ table {
 			}
 
 		.wrapper.alt {
-			background-color:#f5f5f5;
+			background-color:#ffffff;
 		}
 
 		.wrapper.style1 {
-			background-color: #f5f5f5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style1-alt {
@@ -3293,19 +3293,19 @@ table {
 		}
 
 		.wrapper.style2 {
-			background-color: #f5f5f5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #f5f5f5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3 {
-			background-color: #f5f5f5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.style3-alt {
-			background-color: #f5f5f5;
+			background-color: #ffffff;
 		}
 
 		.wrapper.fullscreen {
@@ -3417,7 +3417,7 @@ table {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #f5f5f5;
+		background-color: #ffffff;
 		cursor: default;
 		padding: 1.75em 2em;
 		align-items: center;
