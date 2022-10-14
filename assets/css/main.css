@@ -3988,19 +3988,19 @@ table {
 
 
 		body.is-preload #header nav ul li {
-			-moz-transform: translateY(2em);
-			-webkit-transform: translateY(2em);
-			-ms-transform: translateY(2em);
-			transform: translateY(2em);
+			-moz-transform: translateY(-1em);
+			-webkit-transform: translateY(-1em);
+			-ms-transform: translateY(-1em);
+			transform: translateY(-1em);
 			opacity: 0;
 		}
 
 
 		body.is-preload #header > .title {
-			-moz-transform: translateY(2em);
-			-webkit-transform: translateY(2em);
-			-ms-transform: translateY(2em);
-			transform: translateY(2em);
+			-moz-transform: translateY(-1em);
+			-webkit-transform: translateY(-1em);
+			-ms-transform: translateY(-1em);
+			transform: translateY(-1em);
 			opacity: 0;
 		}
 
@@ -4015,10 +4015,10 @@ table {
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
-				-moz-transition: opacity 1s ease;
-				-webkit-transition: opacity 1s ease;
-				-ms-transition: opacity 1s ease;
-				transition: opacity 1s ease;
+				-moz-transition: opacity 0.15s ease, -moz-transform 0.75s ease;
+				-webkit-transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
+				-ms-transition: opacity 0.15s ease, -ms-transform 0.75s ease;
+				transition: opacity 0.15s ease, transform 0.75s ease;
 				opacity: 1;
 		
 			}
