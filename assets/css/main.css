@@ -4056,10 +4056,7 @@ table {
 				}
 /* Logo */
 
-		svg {
-			max-width: 180px;
-				}
-
+	
 				@media screen and (max-width: 736px) {
 
 					svg {
