@@ -4054,14 +4054,3 @@ table {
 					transition: opacity 0.15s ease, transform 0.75s ease;
 					opacity: 1;
 				}
-/* Logo */
-
-	
-				@media screen and (max-width: 736px) {
-
-					svg {
-						max-width: 130px;
-							}
-	
-				}
-
