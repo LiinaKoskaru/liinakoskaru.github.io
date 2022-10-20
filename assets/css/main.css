@@ -3428,7 +3428,7 @@ table {
 			border: 0;
 			color: #18191a;
 			display: block;
-			font-size: 1.25em;
+			font-size: 1em;
 			font-family: 'Switzer-Regular', sans-serif;
 			font-weight: 400;
 			font-style: normal;
@@ -3465,7 +3465,7 @@ table {
 					#header > nav > ul > li a {
 						color: #18191a;
 						display: inline-block;
-						font-size: 1.25em;
+						font-size: 1em;
 						font-family: 'Switzer-Regular', sans-serif;
 						font-weight: 400;
 						font-style: normal;
@@ -4034,4 +4034,27 @@ table {
 					-ms-transition: opacity 0.15s ease, -ms-transform 0.75s ease;
 					transition: opacity 0.15s ease, transform 0.75s ease;
 					opacity: 1;
+				}
+
+
+
+/* Logo */
+
+				.logo {
+
+					width: 172px;
+				
+				}
+
+				.logo a:active {
+					text-decoration: none;
+					border: 0;
+				}
+
+				@media screen and (max-width: 736px) {
+
+					.logo {
+						width: 120px;
+					}
+			
 				}
