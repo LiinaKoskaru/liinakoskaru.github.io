@@ -1835,7 +1835,7 @@ input, select, textarea {
 
 .box {
 	border-radius: 0.25em;
-	border: solid 1px rgba(255, 255, 255, 0.15);
+	border: solid 1px rgba(24, 25, 26, 0.15);
 	margin-bottom: 2em;
 	padding: 1.5em;
 }
@@ -3483,26 +3483,21 @@ table {
 						font-family: 'Switzer-Regular', sans-serif;
 						font-weight: 400;
 						font-style: normal;
-						-moz-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-						-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-						-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
-						transition: color 0.2s ease, border-bottom-color 0.2s ease;
-						border-bottom: solid 1px #18191a;
-						text-decoration: none;
+						border-bottom-color: transparent;
 					}
 
 
 						#header > nav > ul > li a:hover {
 							border-bottom-color: transparent;
-							color: #18191a;
 						}
 						
 
 						#header > nav > ul > li a.active {
-							color:rgba(24, 25, 26, 0.5);
+							border-bottom: solid 1px #18191a;
 						}
 					
 					
+
 
 		@media screen and (max-width: 736px) {
 
