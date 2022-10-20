@@ -122,26 +122,11 @@ input, select, textarea {
 		color: #18191a;
 		font-family: 'Switzer-Regular', sans-serif;
 		font-style: normal;
-		font-size: 16.5pt;
+		font-size: 19pt;
 		line-height: 1.75;
 		font-weight: 400;
 	}
 
-	p.intro-text {
-		font-size: 24pt;
-		line-height: 1.5;
-
-	}
-
-	@media screen and (max-width: 736px) {
-
-		p.intro-text {
-			font-size: 16.5pt;
-			line-height: 1.5;
-	
-		}
-
-	}
 
 		@media screen and (max-width: 1680px) {
 
@@ -208,7 +193,7 @@ input, select, textarea {
 		font-family: 'Switzer-Semibold', sans-serif;
 		font-weight: 600;
 		font-style: normal;
-		line-height: 1.5;
+		line-height: 1.4;
 		margin: 0 0 0.5em 0;
 	}
 
@@ -246,7 +231,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 2em;
 	}
 
 	h3 {
@@ -268,11 +253,11 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		h1 {
-			font-size: 2em;
+			font-size: 2.1em;
 		}
 
 		h2 {
-			font-size: 1.5em;
+			font-size: 1.75em;
 		}
 
 		h3 {
