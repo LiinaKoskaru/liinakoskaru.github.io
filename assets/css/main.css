@@ -1834,11 +1834,12 @@ input, select, textarea {
 /* Box */
 
 .box {
-	border-radius: 0.25em;
-	border: solid 1px rgba(24, 25, 26, 0.15);
-	margin-bottom: 2em;
+	border-radius: 1.45em;
+	border: solid 1px #18191a;
+	margin-bottom: 3em;
 	padding: 1.5em;
 }
+
 
 	.box > :last-child,
 	.box > :last-child > :last-child,
