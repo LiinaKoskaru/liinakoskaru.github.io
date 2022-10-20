@@ -4042,7 +4042,7 @@ table {
 
 				.logo {
 
-					width: 172px;
+					width: 172px !important;
 				
 				}
 
@@ -4054,7 +4054,7 @@ table {
 				@media screen and (max-width: 736px) {
 
 					.logo {
-						width: 120px;
+						width: 120px !important;
 					}
 			
 				}
