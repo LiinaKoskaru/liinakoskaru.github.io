@@ -2600,14 +2600,12 @@ input[type="radio"] + label:before {
 /* Image */
 
 	.image {
-		border-radius: 1.50em;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 1.50em;
 			display: block;
 		}
 
@@ -3254,7 +3252,7 @@ table {
 		.wrapper > .inner {
 			padding: 3em 5em 2em 5em ;
 			max-width: 100%;
-			width: 92em;
+			width: 88em;
 		}
 
 			@media screen and (max-width: 1680px) {
