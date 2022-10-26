@@ -2665,7 +2665,7 @@ body.is-ie .wrapper.fullscreen {
 }
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.15);
+  color: rgba(89, 212, 48, 0.15);
 }
 #header + #wrapper + #footer > .inner {
   margin: 0 auto;
