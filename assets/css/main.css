@@ -213,10 +213,7 @@ input, select, textarea {
 	}
 
 		h1.major:after {
-			background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-			background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-			background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-			background-image: linear-gradient(to right, #5e42a6, #b74e91);
+			background-color: #9f99e6;
 			-moz-transition: max-width 0.2s ease;
 			-webkit-transition: max-width 0.2s ease;
 			-ms-transition: max-width 0.2s ease;
@@ -3105,11 +3102,11 @@ ul.icons {
 		}
 
 	.spotlights > section:nth-child(2) {
-		background-color: rgba(234, 244, 236, 0.05);
+		background-color: hsl(245, 53%, 75%);
 	}
 
 	.spotlights > section:nth-child(3) {
-		background-color:  rgba(234, 244, 236, 0.1);
+		background-color:  #f5f5f5;
 	}
 
 	.spotlights > section.inactive > .image:before,
@@ -3284,15 +3281,15 @@ table {
 		}
 
 		.wrapper.style1 {
-			background-color: #ffffff;
+			background-color: #f5f5f5;
 		}
 
 		.wrapper.style1-alt {
-			background-color: #bfbbea;
+			background-color: #f5f5f5;
 		}
 
 		.wrapper.style2 {
-			background-color: #ffffff;
+			background-color: #bfbbea;
 		}
 
 		.wrapper.style2-alt {
@@ -3467,7 +3464,7 @@ table {
 						font-family: 'Switzer-Regular', sans-serif;
 						font-weight: 400;
 						font-style: normal;
-						border-bottom-color: #18191a;
+						border-bottom-color: transparent;
 					}
 
 
@@ -3800,10 +3797,7 @@ table {
 			}
 
 			#sidebar nav a:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-color: #9f99e6;
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3892,7 +3886,7 @@ table {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #9f99e6;
 						}
 
 		}
