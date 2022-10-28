@@ -3924,3 +3924,52 @@ input, select, textarea {
 		
 			border-bottom: transparent;
 		}
+
+/* Text color effect */		
+
+#rainbow {
+	animation: Color 6s linear infinite;
+	-webkit-animation: Color 6s ease-in-out infinite;
+}
+
+@keyframes Color{
+	30%{
+	  color:#334248;
+	}
+	
+	80%{
+	  color:#746CC6;
+	}
+  }
+  
+  @-moz-keyframes Color{
+	30%{
+	  color:#334248;
+	}
+
+	
+	80%{
+	  color:#746CC6;
+	}
+  }
+  
+  @-webkit-keyframes Color{
+	30%{
+	  color:#334248;
+	}
+	
+	
+	80%{
+	  color:#746CC6;
+	}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
