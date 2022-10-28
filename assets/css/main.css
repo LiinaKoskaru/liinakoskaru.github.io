@@ -3928,39 +3928,49 @@ input, select, textarea {
 /* Text color effect */		
 
 #rainbow {
-	animation: Color 6s linear infinite;
-	-webkit-animation: Color 6s ease-in-out infinite;
+	animation: Color 8s linear infinite;
+	-webkit-animation: Color 8s ease-in-out infinite;
 }
 
 @keyframes Color{
-	30%{
-	  color:#334248;
+	0%{
+		color:#ffffff;
+	  }
+	  
+	33%{
+	  color:#746CC6;
 	}
 	
-	80%{
-	  color:#746CC6;
+	66%{
+	  color:#334248;
 	}
   }
   
   @-moz-keyframes Color{
-	30%{
-	  color:#334248;
-	}
-
-	
-	80%{
+	0%{
+		color:#ffffff;
+	  }
+	  
+	33%{
 	  color:#746CC6;
+	}
+	
+	66%{
+	  color:#334248;
 	}
   }
   
   @-webkit-keyframes Color{
-	30%{
-	  color:#334248;
+	0%{
+		color:#ffffff;
+	  }
+	  
+	33%{
+	  color:#746CC6;
 	}
 	
-	
-	80%{
-	  color:#746CC6;
+	66%{
+	  color:#334248;
 	}
   }
   
