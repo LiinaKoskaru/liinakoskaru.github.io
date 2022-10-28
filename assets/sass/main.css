@@ -91,7 +91,7 @@ html {
 }
 
 body {
-  background: #312450;
+  background: #111618;
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
   -webkit-animation: none !important;
@@ -167,7 +167,7 @@ h1.major {
   padding-bottom: 0.35em;
 }
 h1.major:after {
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #192124, #746CC6);
   transition: max-width 0.2s ease;
   border-radius: 0.2em;
   bottom: 0;
@@ -1491,7 +1491,7 @@ input[type=button].primary,
 button.primary,
 .button.primary {
   background-color: #ffffff;
-  color: #312450 !important;
+  color: #111618 !important;
 }
 input[type=submit].primary:after,
 input[type=reset].primary:after,
@@ -1783,7 +1783,7 @@ select {
 }
 select option {
   color: #ffffff;
-  background: #312450;
+  background: #111618;
 }
 select:focus::-ms-value {
   background-color: transparent;
@@ -1863,7 +1863,7 @@ input[type=checkbox]:checked + label:before,
 input[type=radio]:checked + label:before {
   background: #ffffff;
   border-color: #ffffff;
-  color: #b74e91;
+  color: #746CC6;
   content: "\f00c";
 }
 input[type=checkbox]:focus + label:before,
@@ -1936,7 +1936,7 @@ input[type=radio] + label:before {
   display: block;
   background: #ffffff;
   border-radius: 100%;
-  color: #312450;
+  color: #111618;
   text-align: center;
   line-height: 2.5em;
   margin: 0 0 1.3em 0;
@@ -1945,22 +1945,22 @@ input[type=radio] + label:before {
   font-size: 1.25em;
 }
 .wrapper.style1 .icon.major:before {
-  color: #5e42a6;
+  color: #192124;
 }
 .wrapper.style1-alt .icon.major:before {
-  color: #493382;
+  color: #040506;
 }
 .wrapper.style2 .icon.major:before {
-  color: #5052b5;
+  color: #334248;
 }
 .wrapper.style2-alt .icon.major:before {
-  color: #3e4094;
+  color: #1e272a;
 }
 .wrapper.style3 .icon.major:before {
-  color: #b74e91;
+  color: #746CC6;
 }
 .wrapper.style3-alt .icon.major:before {
-  color: #953d75;
+  color: #5147b8;
 }
 
 /* Image */
@@ -2324,7 +2324,7 @@ body.is-ie .spotlights > section {
 }
 .spotlights > section > .image:before {
   transition: opacity 1s ease;
-  background: rgba(49, 36, 80, 0.9);
+  background: rgba(17, 22, 24, 0.9);
   content: "";
   display: block;
   height: 100%;
@@ -2475,25 +2475,25 @@ table.alt tfoot {
   }
 }
 .wrapper.alt {
-  background-color: #261c3e;
+  background-color: #060809;
 }
 .wrapper.style1 {
-  background-color: #5e42a6;
+  background-color: #192124;
 }
 .wrapper.style1-alt {
-  background-color: #493382;
+  background-color: #040506;
 }
 .wrapper.style2 {
-  background-color: #5052b5;
+  background-color: #334248;
 }
 .wrapper.style2-alt {
-  background-color: #3e4094;
+  background-color: #1e272a;
 }
 .wrapper.style3 {
-  background-color: #b74e91;
+  background-color: #746CC6;
 }
 .wrapper.style3-alt {
-  background-color: #953d75;
+  background-color: #5147b8;
 }
 .wrapper.fullscreen {
   display: -moz-flex;
@@ -2557,7 +2557,7 @@ body.is-ie .wrapper.fullscreen {
   display: -moz-flex;
   display: -ms-flex;
   display: flex;
-  background-color: #5e42a6;
+  background-color: #192124;
   cursor: default;
   padding: 1.75em 2em;
 }
@@ -2665,7 +2665,7 @@ body.is-ie .wrapper.fullscreen {
 }
 #footer > .inner .menu {
   font-size: 0.8em;
-  color: rgba(89, 212, 48, 0.15);
+  color: rgba(255, 255, 255, 0.15);
 }
 #header + #wrapper + #footer > .inner {
   margin: 0 auto;
@@ -2674,7 +2674,7 @@ body.is-ie .wrapper.fullscreen {
 /* Sidebar */
 #sidebar {
   padding: 2.5em 2.5em 0.5em 2.5em;
-  background: #312450;
+  background: #111618;
   cursor: default;
   height: 100vh;
   left: 0;
@@ -2804,10 +2804,10 @@ body.is-ie #sidebar > .inner {
   width: 100%;
 }
 #sidebar nav a:before {
-  background: #3c2c62;
+  background: #1c2427;
 }
 #sidebar nav a:after {
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  background-image: linear-gradient(to right, #192124, #746CC6);
   transition: max-width 0.2s ease;
   max-width: 0;
 }
@@ -2873,7 +2873,7 @@ body.is-preload #sidebar nav ul li {
   }
   #sidebar nav a:after {
     background-image: none;
-    background-color: #b74e91;
+    background-color: #746CC6;
   }
 }
 @media screen and (max-width: 736px) {
@@ -2908,4 +2908,3 @@ body.is-preload #sidebar nav ul li {
     background-attachment: scroll;
   }
 }/*# sourceMappingURL=main.css.map */
-
